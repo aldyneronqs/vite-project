@@ -35,7 +35,9 @@ function App() {
       flexDirection: 'column', 
       alignItems: 'center', 
       justifyContent: 'center', 
-      backgroundColor: 'white' 
+      backgroundColor: 'white',
+      width: 100vh,
+      height: 100vh
     }}>
       <h1 style={{ color: 'black', textAlign: 'center' }}>ALDYNE RONQUILLO</h1>
       <Profile 
