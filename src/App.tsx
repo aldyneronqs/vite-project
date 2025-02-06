@@ -8,7 +8,7 @@ interface ProfileProps {
   width: string
 }
 
-function Profile({ text, border, color, height, width } : ProfileProps) {
+function Profile({ text, border, color, height, width }: ProfileProps) {
   return (
     <div
       style={{
@@ -30,8 +30,16 @@ function Profile({ text, border, color, height, width } : ProfileProps) {
 
 function App() {
   return (
-    <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h1>ALDYNE RONQUILLO</h1>
+    <section style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      justifyContent: 'center', 
+      height: '100vh', 
+      width: '100vh',
+      backgroundColor: 'white' 
+    }}>
+      <h1 style={{ color: 'black', textAlign: 'center' }}>ALDYNE RONQUILLO</h1>
       <Profile 
         text="CPEITEL" 
         border="black" 
